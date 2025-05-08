@@ -18,3 +18,18 @@ Le dataset utilisé est `loan-train.csv`, contenant les colonnes suivantes :
 - `Property_Area` : Zone de résidence (urbaine, semi-urbaine, rurale)
 - `Loan_Status` : Cible à prédire (Y = approuvé, N = refusé)
 
+## Plan du travail
+- chargement du données 
+- Préparation des données :
+    - nettoyage des valeurs manquantes 
+    - supression des doublons 
+    - Encodage des variables catégorielles
+- Analyse exploratoire des données (EDA): 
+    - statistiques descriptives
+    - analyse de la variable cible : Loan_Status
+    - analyse univariée des variables explicatives 
+    -  analyse bivariée ( variable cible VS les autres variables)
+- Modéle de la régression logistique : 
+    - Préparation des données pour le modéle 
+    - Entraînement du modéle
+    - Evaluation du modéle
