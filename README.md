@@ -1,8 +1,8 @@
-# 📊 Prédiction d'approbation de prêt bancaire avec régression logistique
+#  Prédiction d'approbation de prêt bancaire avec régression logistique
 Ce projet a pour objectif de prédire si une demande de prêt sera **approuvée** ou **refusée** à l'aide d'un modèle de **régression logistique**.
-## 🎯 Objectif
+##  Objectif
 Utiliser des données relatives aux demandeurs de prêt (revenu, emploi, statut familial, etc.) afin de prédire automatiquement si leur demande sera approuvée ou non.
-## 📂 Dataset
+##  Dataset
 Le dataset utilisé est `loan-train.csv`, contenant les colonnes suivantes :
 - `Loan_ID` : Identifiant du prêt
 - `Gender` : Sexe du demandeur
